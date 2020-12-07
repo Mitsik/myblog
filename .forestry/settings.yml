@@ -12,15 +12,6 @@ sections:
   templates:
   - common
 - type: directory
-  path: content/blog
-  label: Posts
-  create: documents
-  match: "*"
-  exclude: index.md
-  new_doc_ext: md
-  templates:
-  - post
-- type: directory
   path: content
   label: Pages
   create: all
@@ -29,6 +20,15 @@ sections:
   new_doc_ext: md
   templates:
   - page
+- type: directory
+  path: content/blog
+  label: Posts
+  create: documents
+  match: "*"
+  exclude: index.md
+  new_doc_ext: md
+  templates:
+  - post
 - type: document
   path: config.yml
   label: Configuration
