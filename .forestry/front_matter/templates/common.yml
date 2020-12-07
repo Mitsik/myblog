@@ -24,3 +24,5 @@ fields:
   label: Draft
   hidden: false
   default: true
+pages:
+- config.yml

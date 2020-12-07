@@ -1,5 +1,5 @@
 ---
-title: The Butler
+title: My Portfolio
 baseline: Your blogging assistant
 description: A ready to use static blog, powered by Cecil.
 baseurl: "/"
@@ -9,9 +9,7 @@ keywords:
 - Static Site Generator
 - SSG
 author: Arnaud Ligny
-date:
-  format: j F Y
-  timezone: Europe/Paris
+date: 2020-12-06 23:00:00 +0000
 theme:
 - hyde
 - netlify
@@ -21,3 +19,4 @@ hyde:
     sticky: true
   theme: ''
   reverse: true
+draft: true
