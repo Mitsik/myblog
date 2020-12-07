@@ -5,6 +5,13 @@ admin_path: "/static/forestry"
 webhook_url: 
 sections:
 - type: directory
+  path: photos
+  label: Photos
+  create: all
+  match: "**/*"
+  templates:
+  - common
+- type: directory
   path: content/blog
   label: Posts
   create: documents
